@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*Com isso, o padding não entra no cálculo do tamanho da box*/
+}
+
+body {
+  background: #e6fff0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  /* renderiza a fonte com uma suavidade melhor / menos pixelizada */
+  -webkit-font-smoothing: antialiased !important;
+}
