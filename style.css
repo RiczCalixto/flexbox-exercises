@@ -103,3 +103,44 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
+
+.info-bar {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  height: 60px;
+  background: #fff;
+}
+.info-bar .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.info-bar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.info-bar ul li {
+  margin: 0 10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.info-bar--actions {
+  display: flex;
+  align-items: center;
+  margin-left: 180px;
+}
+
+.info-bar--actions button {
+  height: 30px;
+  width: 90px;
+  border-radius: 16px;
+  background: #fff;
+  font-size: 14px;
+  border: 0;
+  color: #3bb9e3;
+  margin-right: 15px;
+}
