@@ -19,7 +19,7 @@ body {
   padding: 0 30px;
 }
 
-#main-header .content{
+#main-header .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,6 +30,8 @@ body {
   height: 46px;
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1;
 }
 
 #main-header ul {
@@ -88,4 +90,16 @@ body {
   border-radius: 20px;
   font-size: 12px;
   background: #f5f8fa url("/images/search.svg") no-repeat 190px;
+}
+
+.banner {
+  height: 380px;
+  width: 100%;
+  background: #3bb9e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
 }
