@@ -105,7 +105,7 @@ body {
 }
 
 .info-bar {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   height: 60px;
   background: #fff;
 }
@@ -114,33 +114,115 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 100%;
+  padding-left: 285px;
 }
 .info-bar ul {
   display: flex;
-  align-items: center;
   list-style: none;
 }
 .info-bar ul li {
   margin: 0 10px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 16px;
 }
 
-.info-bar--actions {
+.info-bar ul li span {
+  color: #667580;
+  font-size: 12px;
+}
+
+.info-bar ul li strong {
+  font-size: 18px;
+  color: #667580;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.content .info-bar--actions {
   display: flex;
-  align-items: center;
-  margin-left: 180px;
 }
 
 .info-bar--actions button {
   height: 30px;
   width: 90px;
   border-radius: 16px;
-  background: #fff;
   font-size: 14px;
-  border: 0;
+  font-weight: bold;
+  border: 1px solid;
   color: #3bb9e3;
-  margin-right: 15px;
+  margin-right: 30px;
+}
+
+.info-bar--actions button:hover {
+  border: 1px solid;
+  color: #fff;
+  background: #3bb9e3;
+}
+
+.wrapper-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.profile {
+  width: 260px;
+}
+
+aside.profile img.avatar {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -130px;
+}
+
+aside.profile h1 {
+  font-size: 21px;
+  color: #1f2226;
+  margin-top: 10px;
+}
+
+aside.profile span {
+  font-size: 14px;
+  color: #53626c;
+}
+
+aside.profile p {
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 15px;
+}
+
+aside.profile ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+aside.profile li {
+  font-size: 14px;
+  color: #657786;
+  display: flex;
+  align-items: center;
+}
+
+aside.profile li:not(:first-child) {
+  margin-top: 5px;
+}
+
+aside.profile li img {
+  margin-right: 16px;
+}
+
+.timeline {
+  background: red;
+  width: 200px;
+  height: 200px;
+}
+
+.widgets {
+  background: red;
+  width: 200px;
+  height: 200px;
 }
