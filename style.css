@@ -198,6 +198,9 @@ aside.profile p {
 aside.profile ul {
   list-style: none;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 aside.profile li {
@@ -207,12 +210,58 @@ aside.profile li {
   align-items: center;
 }
 
-aside.profile li:not(:first-child) {
+aside.profile li {
   margin-top: 5px;
 }
 
 aside.profile li img {
   margin-right: 16px;
+}
+
+aside.profile .widget {
+  margin-top: 20px;
+}
+
+aside.profile .widget strong {
+  font-weight: normal;
+  color: #3bb9e3;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+aside.profile .followers ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+aside.profile .followers ul li {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #d0d5d9;
+  flex: 1 0 auto;
+  /* terceiro parametro é o flex-basis tamanho 
+  padrão do elemento antes dele aumentar ou diminuir */
+  margin-right: 5px;
+}
+
+aside.profile .images ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+aside.profile .images ul li {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  background-color: #d0d5d9;
+  flex: 1 0 auto;
+  margin-right: 5px;
 }
 
 .timeline {
