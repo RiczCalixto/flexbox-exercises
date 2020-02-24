@@ -265,13 +265,97 @@ aside.profile .images ul li {
 }
 
 .timeline {
-  background: red;
-  width: 200px;
-  height: 200px;
+  flex: 1;
 }
 
-.widgets {
-  background: red;
-  width: 200px;
-  height: 200px;
+div.wrapper-content aside.widgets {
+  width: 290px;
+}
+
+div.wrapper-content aside.widgets .widget {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 16px;
+}
+
+div.wrapper-content aside.widgets .widget .title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+div.wrapper-content aside.widgets .widget .title strong {
+  font-size: 18px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .widget .title a {
+  color: #3bb9e3;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+div.wrapper-content aside.widgets .follow ul {
+  margin-top: 10px;
+  list-style: none;
+}
+
+div.wrapper-content aside.widgets .follow ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccd6dd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile {
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin: 10px 10px 0 0;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info .strong {
+  font-size: 14px;
+  color: #1f2326;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info span {
+  font-weight: normal;
+  color: #919191;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info button {
+  height: 27px;
+  width: 90px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid;
+  color: #3bb9e3;
+  margin-top: 4px;
+}
+
+div.wrapper-content aside.widgets .follow ul li > a {
+  color: #ccd6dd;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+div.wrapper-content aside.widgets .follow ul li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
 }
